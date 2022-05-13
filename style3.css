@@ -1,0 +1,141 @@
+body{
+    background-color: #020417;
+    color:white;
+    width: 75%;
+    height: auto;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+    color: grey;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+  }
+
+a:visited {
+    color: #3041db;
+  }
+a:hover {
+    color: #3041db;
+  }
+  
+  
+ .navimg{
+     border-radius: 50px;
+     margin-bottom: 30px;
+ } 
+
+.navbar {
+    overflow: hidden;
+    background-color: #040829;
+    position: fixed;
+    left: 0;
+    width: 15%; 
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .navbar a {
+    
+    display: block;
+    color: #3041db;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+  }
+  .navbar :active{
+      color: #3041db ;
+  }
+  .descri{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .all{
+    border: 1px solid #3041db;
+    background-color: #3041db;
+    margin: 20px;
+    padding: 10px;
+  }
+  .animation{
+  border: 1px solid #3041db;
+  background-color: #3041db ;
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  }
+  .python{
+    border: 1px solid #3041db;
+    background-color: #3041db ;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .javascript{
+    border: 1px solid #3041db;
+    background-color: #3041db ;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .react{
+    border: 1px solid #3041db;
+    background-color: #3041db ;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+  .port{
+    border: 1px solid #3041db;
+    background-color: #3041db ;
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .image1{
+    display: flex;
+    margin: 20px;
+    
+}
+.image2{
+    display: flex;
+    margin: 20px;
+
+}
+.image3{
+    display: flex;
+    margin: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ 

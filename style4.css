@@ -1,0 +1,116 @@
+body{
+    background-color: #020417;
+    color:white;
+    width: 75%;
+    height: auto;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+    color: grey;
+    text-decoration: none;
+}
+/* a:link {
+    color: white;
+  }
+
+a:visited {
+    color: #3041db;
+  }
+a:hover {
+    color: #3041db;
+  } */
+  
+  
+ .navimg{
+     border-radius: 50px;
+     margin-bottom: 30px;
+ } 
+
+.navbar {
+    overflow: hidden;
+    background-color: #040829;
+    position: fixed;
+    left: 0;
+    width: 15%; 
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .navbar a {
+    
+    display: block;
+    color: #3041db;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+  }
+  .navbar :active{
+      color: #3041db ;
+  }
+  .con1{
+    width: 75%;
+    display: flex;
+    margin: 30px;
+    border: 1px solid #10173d;
+    
+}
+.con2{
+  width: 75%;
+  display: flex;
+  margin: 30px;
+  border: 1px solid #10173d;
+}
+.con3{
+  width: 75%;
+  display: flex;
+  margin: 30px;
+  border: 1px solid #10173d;
+}
+.con4{
+  width: 75%;
+  display: flex;
+  margin: 30px;
+  border: 1px solid #10173d;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color:blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*.container1 hover .overlay {
+    opacity: 1;
+  }
+  a link{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  }
+  
+  a:visited {
+    color: #324cd2;
+  }
+  
+  a:hover {
+    color: #2d3dcd;
+  }
+  
+  a:active {
+    color: #2f3ec6;
+  } */

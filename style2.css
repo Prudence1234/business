@@ -1,0 +1,51 @@
+body{
+    background-color: #020417;
+    color:white;
+    width: 75%;
+    height: auto;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style: none;
+    color: grey;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+  }
+
+a:visited {
+    color: #3041db;
+  }
+a:hover {
+    color: #3041db;
+  }
+  
+  
+ .navimg{
+     border-radius: 50px;
+     margin-bottom: 30px;
+ } 
+
+.navbar {
+    overflow: hidden;
+    background-color: #040829;
+    position: fixed;
+    left: 0;
+    width: 15%; 
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .navbar a {
+    
+    display: block;
+    color: #3041db;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+  }
+  .navbar :active{
+      color: #3041db ;
+  }
